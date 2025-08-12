@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Noto+Serif+JP:wght@200..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Share+Tech&display=swap');
+
+body {
+    background-color: #2b7848;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Jersey 20';
+    font-size: 4rem;
+    padding: 1rem 0;
+    margin: 0;
+    height: 3rem;
+    color: #53c161;
+}
+
+.game-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5rem auto;
+    background-color: #fff;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 20px;
+    background-color: #2b7848;
+}
+
+.cell {
+    color: #27925f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Share Tech';
+    font-size: 5rem;
+    min-height: 10rem;
+    background-color: white;
+    border-left: 5px solid #53c161;
+    border-bottom: 5px solid #53c161;
+    border-top: 2px solid #53c161;
+    border-right: 1px solid #53c161;
+    border-radius: 10px;
+}
+
+.cell:hover {
+    background-color: #75f586;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    font-family: 'Jersey 20';
+    font-size: 4rem;
+    color: rgb(208, 255, 209)
+}
+
+.player-section {
+    display: none;
+    margin: 3rem;
+    justify-content: space-evenly;
+}
+
+.player-card {
+    background-color: #b6eec9;
+    width: 25rem;
+    border-radius: 50px;
+}
+
+.player-title {
+    display: flex;
+    font-family: 'Jersey 20';
+    font-size: 4.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+}
+
+.play-btn {
+    display: none;
+    margin: 4rem auto;
+    background-color: #0f5533;
+    font-family: 'Jersey 20';
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    padding: 1rem 4rem;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.play-btn:hover {
+    background-color: #213f28;
+    color: #fff673;
+}
+
+.restart-btn {
+    display: flex;
+    margin: 2rem auto;
+    padding: 1rem 3rem;
+    font-family: 'Jersey 20';
+    font-size: 3rem;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #0f5533;
+    color: rgb(255, 255, 255);
+}
+
+.restart-btn:hover {
+    background-color: #213f28;
+    color: #fff673;
+}
